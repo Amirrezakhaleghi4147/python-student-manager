@@ -1,15 +1,10 @@
-amount = 0
 
-
+        
 class Counter :
-
-
 
     def __init__(self) :
 
         self.amount = 0
-
-
 
     def incremen(self) :
 
@@ -19,7 +14,7 @@ class Counter :
 
     def decrements(self) :
 
-        self.amount = self.amount + 1
+        self.amount = self.amount - 1
 
         return self.amount
 
